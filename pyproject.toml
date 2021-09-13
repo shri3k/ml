@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["shri3k <github@yojan.dev>"]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+numpy = "^1.21.2"
+pandas = "^1.3.2"
+scikit-learn = "^0.24.2"
+seaborn = "^0.11.2"
+jupyter = "^1.0.0"
+xgboost = "^1.4.2"
+notebook = "^6.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
